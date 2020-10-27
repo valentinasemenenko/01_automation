@@ -6,7 +6,8 @@ describe('Web Czechitas', () => {
 
         // Pockej 5sekund nez provedes dalsi prikaz
         browser.pause(5000)
-
+        browser.$(‘#footer’).scrollIntoView()
+        browser.$(‘.newsletter-email’).setValue(‘muj@email.com’)
         // Dalsi prikaz tady momentalne neni, takze po 5sekundach se prohlizec zavre.
         // Exekuce testu skončí a Ty můžeš vidět výsledky testu v terminálu.
 
