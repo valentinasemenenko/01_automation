@@ -12,7 +12,7 @@ describe('Web Czechitas', () => {
 
         // Zde pak můžeš přidat další příkazy
         // Zkus například tyto dva příkazy odkomentovat a spustit npm test znovu - co se stane?
-        // browser.maximizeWindow()
-        // browser.pause(5000)
+          browser.maximizeWindow()
+          browser.pause(5000)
     });
 });
